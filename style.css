@@ -18,7 +18,7 @@ body{
 }
 .logo-div{
     height: 20%;
-    padding: 0 13.5rem;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ body{
     width: 70%;
     padding: 10% 0;
 }
-.content p{
+.text{
     font-size: 21px;
     font-weight: 600;
 }
@@ -64,4 +64,18 @@ input{
 .input-div{
     display: flex;
     flex-wrap: wrap;
+}
+.password-warning{
+    display: none;
+    font-size: 16px;
+    color: red;
+}
+.submit-btn{
+    background-color: rgb(69, 113, 69);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    font-size: 18px;
+    margin: 2rem 0;
 }
